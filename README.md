@@ -1,13 +1,13 @@
 # ShortVRSample
 
-Summary and Run Instructions
+#Summary and Run Instructions
 
 The environment is a small dirt maze with an open ceiling for light to go through. The environment has several rocks which the player can collide with and block the path of. Throughout the environment, there are different colored diamonds that the player can cause to disappear by colliding with them. You can move throughout the environment using your VR handheld controllers, or the WASD keys on the computer keyboard.
 
 To run the game, you should import the project into Unity in a Window’s environment. The version should be no later than 2020.3.6f1. For running on older versions of Unity, downgrading the project is possible. Before starting the program, make sure that you configure your handheld controls on a trigger button, where clicking will initiate the “fly” action. 
 
 
-Description
+#Description
 
 I made the project using Unity3d. 
 
@@ -21,18 +21,18 @@ I then put in rock assets around the area, also giving them a box collider so th
 
 I then put the diamond assets around the area, scaling them down and only turning on the rotation animation for them so they will stay in place. I also put a box collider on them for collision detection. I then add in the movement script of the player that it should check when the player cube has collided with an object, and check if the tag of that object is “Collectible”. If the tag is “Collectible”, the collided object should be destroyed. This creates the part of the gameplay where colliding with a diamond makes it disappear.
 
-Gameplay
+#Gameplay Screenshot
 
 
 
-Sources
+#Sources
 
 Code
 WASD/Arrow key movement - Unity Answers - For WASD movement script
 simple steamvr navigator (github.com) - For Fly Action with VR controls
 How to destroy a gameobject on collision - Unity Answers - Collision detection and destroy object on collision
 
-Assets
+#Assets
 SteamVR Plugin | Integration | Unity Asset Store - Plugin for allowing VR integration
 Low Poly Rock Pack | 3D Environments | Unity Asset Store - The rocks used in the environment
 Simple Gems Ultimate Animated Customizable Pack | 3D Props | Unity Asset Store - The diamonds used in the environment
