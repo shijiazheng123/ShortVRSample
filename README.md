@@ -23,7 +23,7 @@ I then put the diamond assets around the area, scaling them down and only turnin
 
 # Gameplay Screenshot
 
-
+![Gameplay](gameplay.JPG)
 
 # Sources
 
